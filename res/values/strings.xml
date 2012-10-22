@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BowlingGame</string>
+    <string name="hello_world">这是一个保龄球计分程序</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">BowlingGame</string>
+    <string name="title_activity_button">calc</string>
+    <string name="value_default_score">    </string>
+    <string name="do_calc">计算得分</string>
+    <string name="score_hint">得分</string>
+    <string name="label_round1">第1轮</string>
+    <string name="label_round2">第2轮</string>
+    <string name="label_round3">第3轮</string>
+    <string name="label_round4">第4轮</string>
+    <string name="label_round5">第5轮</string>
+    <string name="label_round6">第6轮</string>
+    <string name="label_round7">第7轮</string>
+    <string name="label_round8">第8轮</string>
+    <string name="label_round9">第9轮</string>
+    <string name="label_round10">第10轮</string>
+    <string name="label_final_score">得分:</string>
+    <string name="text_appearance">?android:attr/textAppearanceLarge</string>
+</resources>

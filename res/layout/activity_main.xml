@@ -1,0 +1,310 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    > 
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+    <!-- Round 1 columns -->
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound1"
+            android:text="@string/label_round1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin1_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin1_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore1"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>    -->      
+    </TableRow>
+    
+    <!-- Round 2 columns -->
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound2"
+            android:text="@string/label_round2"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin2_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin2_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore2"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>  -->        
+    </TableRow>    
+    
+    <!-- Round 3 columns -->
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound3"
+            android:text="@string/label_round3"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin3_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin3_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore3"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>   -->       
+    </TableRow>    
+ 
+    <!-- Round 4 columns -->
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound4"
+            android:text="@string/label_round4"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin4_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin4_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore4"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>   -->       
+    </TableRow>
+ 
+    <!-- Round 5 columns -->
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound5"
+            android:text="@string/label_round5"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin5_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin5_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore5"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>    -->      
+    </TableRow>  
+    
+    <!-- Round 6 columns -->
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound6"
+            android:text="@string/label_round6"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin6_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin6_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore6"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>   -->       
+    </TableRow>    
+    
+    <!-- Round 7 columns -->
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound7"
+            android:text="@string/label_round7"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin7_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin7_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore7"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>       -->   
+    </TableRow>    
+    
+    <!-- Round 8 columns -->
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound8"
+            android:text="@string/label_round8"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin8_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin8_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore8"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>    -->      
+    </TableRow>    
+    
+    <!-- Round 9 columns -->
+    <TableRow
+        android:id="@+id/tableRow9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound9"
+            android:text="@string/label_round9"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin9_1"
+            android:entries="@array/pinsNum" />   
+
+        <Spinner
+            android:id="@+id/spinnerPin9_2"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                
+<!--         <EditText
+           android:id="@+id/EditTextTotalScore9"
+           android:hint = "@string/score_hint"
+           android:text="@string/value_default_score"/>     -->     
+    </TableRow>    
+    
+    <!-- Round 10 columns -->
+    <TableRow
+        android:id="@+id/tableRow10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip" >
+ 
+        <TextView
+            android:id="@+id/textViewRound10"
+            android:text="@string/label_round10"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Spinner
+            android:id="@+id/spinnerPin10_1"
+            android:entries="@array/pinsNum" />   
+        <Spinner
+            android:id="@+id/spinnerPin10_2"
+            android:entries="@array/pinsNum" />    
+
+        <Spinner
+            android:id="@+id/spinnerPin10_3"
+            android:entries="@array/pinsNum"
+            android:visibility="visible" />
+                                                
+    </TableRow>    
+    
+    <!-- just draw a red line -->
+    <View
+        android:layout_height="2dip"
+        android:background="#FF0000" />    
+    
+    <!-- Caculate Score -->
+    <TableRow
+        android:id="@+id/tableRow11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" >
+        <TextView
+          android:id="@+id/labelFinalScore"
+          android:hint = "@string/score_hint"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="@string/label_final_score"/>          
+        <TextView
+          android:id="@+id/valueFinalScore"
+          android:hint = "@string/score_hint"
+          android:textAppearance="?android:attr/textAppearanceLarge"
+          android:text="@string/value_default_score"/>   
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip" > 
+        <Button
+            android:id="@+id/buttonCalc"
+            android:layout_span="2"
+            android:layout_column="1"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/do_calc" />
+    </TableRow>     
+</TableLayout>
+</ScrollView>    
+</LinearLayout>

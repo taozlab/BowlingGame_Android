@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+	<string-array name="pinsNum">  
+	    <item id="0">0</item>  
+	    <item id="1">1</item>  
+	    <item id="2">2</item>  
+	    <item id="3">3</item>  
+	    <item id="4">4</item>  
+	    <item id="5">5</item>  
+	    <item id="6">6</item>  
+	    <item id="7">7</item>  
+	    <item id="8">8</item>  
+	    <item id="9">9</item>
+	    <item id="10">10</item>    	    
+	</string-array>        
+</resources>  
